@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Newsletter sign-up form with success message</title>
+  </head>
+  <body>
+    <header>
+      <h1>Newsletter : sign-up</h1>
+    </header>
+    <main class="main__content">
+      <div class="container">
+        <section class="left">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="list">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+
+          <form action="">
+            <div class="form__input">
+              <label for="email"> Email address</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="email@company.com"
+                id="email"
+                required
+              />
+              <p id="error"></p>
+            </div>
+            <button type="submit" class="btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </section>
+        <section class="right"></section>
+      </div>
+      <div class="success__modal">
+        <div class="check">
+          <img src="/assets/images/icon-success.svg" alt="" />
+        </div>
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to
+          <span style="font-weight: 700">ash@loremcompany.com.</span> Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+
+        <button type="submit" id="close__btn" class="btn close">Close</button>
+      </div>
+    </main>
+    <footer>
+      <span>Newsletter : sign-up. All right reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
