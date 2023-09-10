@@ -90,7 +90,7 @@ header h1 {
 }
 
 .list li::before {
-    content: url(images/icon-list.svg);
+    content: url(./images/icon-list.svg);
     width: 20px;
 }
 
@@ -132,7 +132,7 @@ header h1 {
 }
 
 .right {
-    background-image: url(images/illustration-sign-up-desktop.svg);
+    background-image: url(./images/illustration-sign-up-desktop.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,7 +226,7 @@ footer span {
     .right {
         order: 1;
         width: 100%;
-        background-image: url(images/illustration-sign-up-mobile.svg);
+        background-image: url(./images/illustration-sign-up-mobile.svg);
         background-position: top;
         border-radius: 0 0 25px 25px;
     }
